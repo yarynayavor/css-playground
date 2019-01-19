@@ -1,0 +1,50 @@
+ol {
+    margin: 0;
+    padding: 15px;
+}
+
+div {
+    margin-bottom: 10px;
+    height: 100px;
+    width: 100px;
+}
+
+.one {
+    border-bottom: 100px solid red;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	height: 0;
+	width: 100px;
+}
+
+.two {
+    width: 150px;
+	height: 100px;
+	-webkit-transform: skew(20deg);
+	-moz-transform: skew(20deg);
+    -o-transform: skew(20deg);
+    transform: skew(20deg);
+    background: blue;
+    margin-top: 20px;
+}
+
+.three {
+    position: relative;
+    width: 54px;
+    border-width: 50px 18px 0;
+    border-style: solid;
+    border-color: green transparent;
+    margin-top: 20px;
+}
+
+.three:before {
+    content: "";
+    position: absolute;
+    height: 0;
+    width: 0;
+    top: -85px;
+    left: -18px;
+    border-width: 0 45px 35px;
+    border-style: solid;
+    border-color: transparent transparent green;
+}

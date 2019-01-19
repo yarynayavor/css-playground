@@ -1,0 +1,25 @@
+div {
+    margin-bottom: 10px;
+}
+
+.circle {
+    background: red;
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+}
+
+.oval {
+    background: blue;
+    width: 160px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+.triangle {
+    width: 0;
+    height: 0;
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    border-bottom: 100px solid yellow;
+}

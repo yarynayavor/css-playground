@@ -1,0 +1,14 @@
+p.first {
+  white-space: nowrap; 
+  width: 198px; 
+  text-overflow: clip; 
+  border: 1px solid #000000;
+}
+
+p.second {
+    white-space: nowrap; 
+    overflow: hidden;
+    width: 198px; 
+    text-overflow: ellipsis; 
+    border: 1px solid #000000;
+  }

@@ -1,0 +1,18 @@
+div {
+    background: #a6d8e5;
+    border: 1px solid #000;
+    width: 350px;
+    height: 100px;
+}
+
+div.scew {
+    -ms-transform: skew(20deg,10deg); 
+    -webkit-transform: skew(20deg,10deg); 
+    transform: skew(20deg,10deg); 
+}
+
+div.scewY {
+    -ms-transform: skewY(20deg); 
+    -webkit-transform: skewY(20deg); 
+    transform: skewY(20deg); 
+}

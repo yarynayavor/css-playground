@@ -1,0 +1,13 @@
+div {
+    background: #a6d8e5;
+    border: 1px solid #000;
+    width: 350px;
+    height: 100px;
+}
+
+div.rotate {
+    margin-top: 15px;
+    -ms-transform: rotate(40deg); 
+    -webkit-transform: rotate(40deg); 
+    transform: rotate(40deg); 
+}

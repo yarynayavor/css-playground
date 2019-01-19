@@ -1,0 +1,50 @@
+div {
+	background: red;
+	width: 100px;
+	height: 100px;
+	transition-duration: 2s;
+	transition-property: transform;
+	animation: colorchange 6s infinite;
+	-webkit-animation: colorchange 6s infinite;
+}
+
+div:hover {
+	transform: rotate(360deg);
+	-webkit-transform: rotate(360deg);
+}
+
+@keyframes colorchange {
+	0% {
+		background: red;
+	}
+	25% {
+		background: yellow;
+	}
+	50% {
+		background: blue;
+	}
+	75% {
+		background: green;
+	}
+	100% {
+		background: purple;
+	}
+}
+
+@-webkit-keyframes colorchange {
+	0% {
+		background: red;
+	}
+	25% {
+		background: yellow;
+	}
+	50% {
+		background: blue;
+	}
+	75% {
+		background: green;
+	}
+	100% {
+		background: purple;
+	}
+}

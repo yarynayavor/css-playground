@@ -1,0 +1,15 @@
+p {
+    width: 150px; 
+}
+
+p.same {
+    border: 1px solid #000;
+}
+
+p.first {
+    word-wrap: break-word;
+}
+
+p.second {
+    word-break: break-all;
+}

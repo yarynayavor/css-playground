@@ -1,0 +1,63 @@
+.one {
+    position: relative;
+    width: 212px;
+    height: 100px;
+}
+ 
+.one:before,
+.one:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 60px;
+    height: 60px;    
+    border: 20px solid red;
+    -moz-border-radius: 50px 50px 0 50px;
+         border-radius: 50px 50px 0 50px;
+    -webkit-transform: rotate(-45deg);
+       -moz-transform: rotate(-45deg);
+        -ms-transform: rotate(-45deg);
+         -o-transform: rotate(-45deg);
+            transform: rotate(-45deg);
+}
+ 
+.one:after {
+    left: auto;
+    right: 0;
+    -moz-border-radius: 50px 50px 50px 0;
+         border-radius: 50px 50px 50px 0;
+    -webkit-transform:rotate(45deg);
+       -moz-transform:rotate(45deg);
+        -ms-transform:rotate(45deg);
+         -o-transform:rotate(45deg);
+            transform:rotate(45deg);
+}
+
+.two {
+    width: 0; height: 0;
+    border-right: 60px solid transparent;
+    border-top: 60px solid yellow;
+    border-left: 60px solid yellow;
+    border-bottom: 60px solid yellow;
+    border-top-left-radius: 60px;
+    border-top-right-radius: 60px;
+    border-bottom-left-radius: 60px;
+    border-bottom-right-radius: 60px;
+}
+
+.three {
+    width: 150px; height: 80px; margin-left: 26px;
+    background: #a6d8e5;
+    position: relative;
+    border-radius: 10px;
+}
+
+.three:before {
+    content: "";
+    width: 0; height: 0;
+    position: absolute; right: 100%; top: calc(50% - 12px);
+    border-top: 12px solid transparent;
+    border-right: 24px solid #a6d8e5;
+    border-bottom: 12px solid transparent;
+}
